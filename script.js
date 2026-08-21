@@ -47,6 +47,7 @@ function proceed() {
 
     if (Number.isNaN(size) || size < 1 || size > 100) {
         alert("Not a valid input!");
+        location.reload();
         return;
     }
 

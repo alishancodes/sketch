@@ -1,25 +1,35 @@
 body {
     display: flex;
-    flex-direction : column;
-    justify-content:center;
-    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    /* gap:20px; */
+    background-color: rgb(110, 63, 71);
+}
+
+.name {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #F4C430;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height : 500px;
-    width: 500px;
-    margin:20px;
-    border : 10px solid #FFF3B0;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border: 15px solid #E8C95A;
+    border-radius: 10px;
 }
 
-.line > div {
+.line>div {
     aspect-ratio: 1;
-    flex: 1 ;
+    flex: 1;
     box-sizing: border-box;
     background-color: #f5f5f5;
     border: 0.5px solid #d6d6d6;
@@ -32,11 +42,11 @@ body {
 }
 
 .operations {
-    display :flex;
-    flex-direction :column;
-    justify-content :center;
-    align-items:center;
-    gap:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin: 20px;
 }
 
@@ -47,6 +57,14 @@ body {
 }
 
 .btns button {
-    flex: 1;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
 }
 
+input {
+    border: 2px solid #2b2b2b;
+    border-radius: 4px;
+}
