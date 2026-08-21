@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: rgb(110, 63, 71);
 }
@@ -20,8 +20,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 400px;
+    height: 700px;
+    width: 700px;
     margin: 20px;
     border: 15px solid #E8C95A;
     border-radius: 10px;
