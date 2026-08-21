@@ -1,10 +1,11 @@
 body {
     display: flex;
     flex-direction : column;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     height: 100vh;
     margin: 0;
+    /* gap:20px; */
 }
 
 .container {
@@ -12,12 +13,13 @@ body {
     flex-direction: column;
     height : 500px;
     width: 500px;
+    margin:20px;
 }
 
 .line > div {
     aspect-ratio: 1;
     flex: 1 ;
-    border: 1px solid lightgray;
+    border: 0.00000000001px solid #e2e8f0;
     box-sizing: border-box;
 
 }
@@ -26,5 +28,24 @@ body {
     flex: 1;
     display: flex;
     width: inherit;
+}
+
+.operations {
+    display :flex;
+    flex-direction :column;
+    justify-content :center;
+    align-items:center;
+    gap:10px;
+    margin: 20px;
+}
+
+.btns {
+    display: flex;
+    width: 90%;
+    gap: 10px;
+}
+
+.btns button {
+    flex: 1;
 }
 
