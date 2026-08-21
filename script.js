@@ -26,10 +26,10 @@ function createGrid(size) {
             const childDiv = document.createElement("div");
 
             childDiv.addEventListener("mouseenter", () => {
-                childDiv.style.backgroundColor = "#facc15";
+                childDiv.style.backgroundColor = randomColor();
             });
             childDiv.addEventListener("mouseleave", () => {
-                childDiv.style.backgroundColor = "#d97706";
+                childDiv.style.backgroundColor = randomColor();
             });
 
             parentLineDiv.append(childDiv);
@@ -57,6 +57,10 @@ confirmBtn.addEventListener("click", proceed);
 
 // initial grid of 16 by 16
 createGrid(16);
+
+function randomColor() {
+    return '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'); //code to generate a random color hex code
+}
 
 const reload = document.createElement("button");
 reload.textContent = "Reset";
