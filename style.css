@@ -70,5 +70,14 @@ body {
 input {
     border: 2px solid #2b2b2b;
     border-radius: 4px;
-    font-size : 25px;
+    height : 25px;
+    width : 250px;
+    font-weight : bolder;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: #777;
+    text-align: center;
+    line-height: normal;
 }

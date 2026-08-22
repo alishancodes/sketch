@@ -13,6 +13,7 @@ buttons.append(confirmBtn);
 const gridSize = document.createElement("input");
 gridSize.id = "input";
 gridSize.type = "number";
+gridSize.placeholder = "Enter grid size from 1 to 100";
 upper.append(gridSize);
 
 function createGrid(size) {
