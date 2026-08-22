@@ -8,6 +8,7 @@ A browser-based Etch-A-Sketch built with HTML, CSS, and JavaScript.
 - User-defined grid size
 - Interactive mouse drawing
 - Random colors
+- Toggleable eraser mode
 - Reset button
 - Input validation
 - Responsive layout
@@ -18,7 +19,8 @@ A browser-based Etch-A-Sketch built with HTML, CSS, and JavaScript.
 1. Enter the desired grid size.
 2. Click **Confirm** to generate the grid.
 3. Move the mouse over the grid to draw.
-4. Click **Reset** to clear the grid.
+4. Toggle **Eraser** to erase cells.
+5. Click **Reset** to clear the grid.
 
 ## Built With
 
@@ -36,11 +38,12 @@ A browser-based Etch-A-Sketch built with HTML, CSS, and JavaScript.
 - Flexbox
 - Input validation
 - Random color generation
+- JavaScript state management
+- Dynamic CSS classes
 
 ## Future Improvements
 
 - Color picker
-- Eraser mode
 - Rainbow mode
 - Shading mode
 - Improved mobile support
